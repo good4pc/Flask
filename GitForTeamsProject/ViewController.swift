@@ -25,6 +25,10 @@ class ViewController: UIViewController {
     func addingNewMethod() {
         print("This is a new method")
     }
+    
+    func thirdMethod() {
+        print("third method")
+    }
 
 }
 
