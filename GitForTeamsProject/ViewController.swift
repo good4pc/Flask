@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         self.present(alertControllerIS, animated: true, completion: nil)
     }
 
+    func addingNewMethod() {
+        print("This is a new method")
+    }
 
 }
 
