@@ -15,11 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("i need some changes in here")
         print("hello man")
-        let alertController = UIAlertController(title: "Pc", message: "This is the message", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
+        let alertControllerIS = UIAlertController(title: "Pc", message: "This is the message", preferredStyle: .alert)
+        alertControllerIS.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
             print("ok button  pressed")
         }))
-        self.present(alertController, animated: true, completion: nil)
+        self.present(alertControllerIS, animated: true, completion: nil)
     }
 
 
