@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         print("i need some changes in here")
         print("hello man")
         let alertControllerIS = UIAlertController(title: "Pc", message: "This is the message", preferredStyle: .alert)
-        alertControllerIS.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
+        thisßalertControllerIS.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
             print("ok button  pressed")
         }))
         self.present(alertControllerIS, animated: true, completion: nil)
